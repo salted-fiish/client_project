@@ -235,3 +235,23 @@ footer p a:hover {
     text-decoration: none;
     border-bottom: 2px solid #FFCB05;
 }
+
+#scroll-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #FFCB05; /* Maize color */
+    color: #00274C; /* Dark blue text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    display: none; /* Hidden by default */
+    transition: opacity 0.3s ease;
+}
+
+#scroll-top-btn:hover {
+    background-color: #e0b804; /* Slightly darker shade on hover */
+}
